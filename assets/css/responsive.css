@@ -1,0 +1,539 @@
+/* 1400 media qurey */
+@media (max-width:1400px) {
+    .header_item {
+        padding-inline: 16px;
+    }
+}
+
+/* 1200 media qurey */
+@media (max-width:1200px) {
+    .header_logo {
+        width: 100%;
+    }
+
+    .header_list {
+        flex-direction: column;
+        gap: 16px;
+        align-items: start;
+        padding-left: 0;
+        margin-bottom: 0;
+        padding-bottom: 5px;
+    }
+
+    .header_link {
+        color: var(--white-color);
+    }
+
+    .header_link:hover {
+        color: var(--red-color);
+    }
+
+    .header_link.active {
+        color: var(--red-color);
+    }
+
+    .header_link::after {
+        background-color: var(--red-color);
+    }
+
+    .humburger {
+        display: flex;
+    }
+
+    .header_navbar {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background-color: var(--black-color);
+        position: fixed;
+        height: 100%;
+        top: 0;
+        z-index: 99;
+        padding: 16px;
+        right: 0;
+        transform: translateX(100%);
+        max-width: 430px;
+        width: 100%;
+        transition: 0.3s ease-in-out;
+    }
+
+    .header_navbar.active {
+        right: 0;
+        transform: translateX(0%);
+    }
+
+    .close_menu {
+        display: flex;
+    }
+
+    .header_item {
+        padding-inline: 0px;
+    }
+
+    .heading {
+        font-size: 48px;
+        margin-bottom: 24px;
+    }
+
+    .banner {
+        height: 450px;
+    }
+
+    .banner_content .banner_heading {
+        font-size: 50px;
+    }
+
+    .signup_heading {
+        font-size: 36px;
+    }
+}
+
+/* 1024 media qurey  */
+@media (max-width:1024px) {
+    .section {
+        margin-block: 3rem;
+    }
+    .secInfo_heading {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .heading {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .banner {
+        height: 400px;
+    }
+
+    .banner_content .banner_heading {
+        font-size: 48px;
+    }
+
+    .signup {
+        height: 450px;
+        margin-bottom: 50px;
+    }
+
+    .overview_img {
+        height: 400px;
+    }
+
+    .overview_box h3 {
+        margin-bottom: 12px;
+        font-size: 24px;
+    }
+
+    .info {
+        padding-block: 40px;
+    }
+
+    .categories_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .why_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .signup_heading {
+        font-size: 32px;
+    }
+
+    .footer_navbar {
+        width: 28%;
+    }
+}
+
+/* 991 media qurey  */
+@media (max-width:991px) {
+
+    .header_logoLnk,
+    .footer_icon {
+        height: 54px;
+        width: 120px;
+    }
+
+    .categories_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .satisfied_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .satisfied_sec {
+        padding: 16px;
+    }
+
+    .footer-pages-wrap {
+        padding: 40px 24px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .overview_box {
+        padding: 0;
+        margin: 0;
+        padding: 50px;
+    }
+
+    .overview_box.one,
+    .overview_box.three {
+        margin-left: -24px;
+        margin-right: 0;
+        padding: 24px;
+    }
+
+    .overview_box.two,
+    .overview_box.four {
+        margin-right: -24px;
+        padding: 24px;
+    }
+
+    .overview_box {
+        height: auto;
+    }
+}
+
+/* 767 media qurey  */
+@media (max-width:767px) {
+    .section {
+        margin-block: 2rem;
+    }
+    .secInfo_heading {
+        font-size: 20px;
+    }
+    .py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+    .banner {
+        height: 350px;
+    }
+
+    .signup {
+        height: 400px;
+        margin-bottom: 40px;
+    }
+
+    .banner_content .banner_heading {
+        font-size: 40px;
+    }
+
+    .footer-pages-content-grp h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .why_sec {
+        padding: 16px;
+    }
+
+    .hotelSlct_btn {
+        margin-top: 8px;
+    }
+
+    .hotels_sec {
+        flex-direction: column-reverse;
+        padding: 12px;
+    }
+
+    .hotels_imgs {
+        width: 100%;
+        height: 300px;
+    }
+
+    .hotels_content {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .hotels_title {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+    .hotelSlct_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    .why_imgWrap {
+        max-width: 70px;
+        height: 70px;
+    }
+
+    .why_img {
+        max-width: 34px;
+        height: 34px;
+    }
+
+    .overview_img {
+        height: 350px;
+    }
+
+    .overview_box.one,
+    .overview_box.three {
+        margin-left: 0px;
+        margin-right: 0;
+    }
+
+    .overview_box.two,
+    .overview_box.four {
+        margin-right: 0px;
+    }
+
+    .satisfied_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .satisfied_title {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    .signup_input {
+        font-size: 16px;
+    }
+
+    .categories_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .why_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    .signup_heading {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .footer_socials {
+        width: 40%;
+        order: 2;
+    }
+
+    .footer_navbar {
+        width: 40%;
+        order: 4;
+    }
+
+    .footer_link {
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .footer_content {
+        padding-block: 40px;
+    }
+
+    .social_link {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-pages-wrap {
+        padding: 32px 20px;
+    }
+
+    .hotels_secWrapp {
+      flex-direction: column;
+    }
+    .hotels_right, .hotels_left {
+        width: 100%;
+    }
+    .hotels_img{
+        height:350px;
+    }
+    .hotels_contents {
+        padding: 20px;
+    }
+    .contact_inner {
+        flex-direction: column;
+    }
+    .contact_left, .contact_right {
+        width: 100%;
+    }
+    .contact_inner {
+        padding: 24px;
+    }
+}
+
+/* 575 media qurey  */
+@media (max-width:575px) {
+    .heading {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    .banner_content {
+        padding-inline: 28px;
+    }
+
+    .section {
+        margin-block: 28px;
+    }
+
+    .header_logoLnk,
+    .footer_icon {
+        height: 45px;
+        width: 100px;
+    }
+
+    .overview {
+        padding: 32px 0;
+    }
+
+    .top_marge {
+        margin-top: 20px;
+    }
+
+    .info {
+        padding-block: 30px;
+    }
+
+    .banner {
+        height: 330px;
+    }
+
+    .banner_content .banner_heading {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .banner_desc {
+        font-size: 16px;
+    }
+
+    .why_title {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .why_sec {
+        padding: 12px;
+    }
+
+    .why_imgWrap {
+        max-width: 60px;
+        height: 60px;
+    }
+
+    .why_img {
+        max-width: 28px;
+        height: 28px;
+    }
+
+    .overview_img {
+        height: 300px;
+    }
+
+    .footer-pages-wrap {
+        padding: 24px 18px;
+    }
+
+    .satisfied_title {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+    .footer_wrapper {
+        flex-direction: column;
+    }
+
+    .footer_title {
+        font-size: 20px;
+    }
+
+    .footer_content {
+        padding-block: 32px;
+    }
+
+    .footer_navbar,
+    .footer_left {
+        width: 100%;
+    }
+
+    .footer_socials {
+        width: 40%;
+        order: 4;
+    }
+
+    .social_link {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer_btmSec {
+        justify-content: center;
+    }
+
+    .hotels_img{
+        height:300px;
+    }
+}
+
+/* media query 480 */
+@media (max-width:480px) {
+    .heading {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .banner_content .banner_heading {
+        font-size: 28px;
+    }
+
+    .satisfied_title {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .signup_form {
+        flex-direction: column;
+    }
+
+    .signup {
+        height: 330px;
+        margin-bottom: 20px;
+    }
+
+    .banner_desc {
+        font-size: 14px;
+    }
+
+    .signup_innerSec {
+        padding: 20px 16px;
+    }
+
+    .signup_heading {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .signup_desc {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .hotels_img{
+        height:250px;
+    }
+}
