@@ -1269,7 +1269,11 @@ title {
   margin-bottom: 12px;
   color: var(--red-color);
 }
-
+.secInfo_subHeading{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
 .secInfo_desc {
   font-size: 16px;
   font-weight: 400;
