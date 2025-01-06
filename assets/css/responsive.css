@@ -114,16 +114,6 @@
         height: 450px;
         margin-bottom: 50px;
     }
-
-    .overview_img {
-        height: 400px;
-    }
-
-    .overview_box h3 {
-        margin-bottom: 12px;
-        font-size: 24px;
-    }
-
     .info {
         padding-block: 40px;
     }
@@ -160,45 +150,10 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
     }
-
-    .satisfied_wrapper {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
-    }
-
-    .satisfied_sec {
-        padding: 16px;
-    }
-
     .footer-pages-wrap {
         padding: 40px 24px;
     }
 
-}
-
-@media (max-width:992px) {
-    .overview_box {
-        padding: 0;
-        margin: 0;
-        padding: 50px;
-    }
-
-    .overview_box.one,
-    .overview_box.three {
-        margin-left: -24px;
-        margin-right: 0;
-        padding: 24px;
-    }
-
-    .overview_box.two,
-    .overview_box.four {
-        margin-right: -24px;
-        padding: 24px;
-    }
-
-    .overview_box {
-        height: auto;
-    }
 }
 
 /* 767 media qurey  */
@@ -282,30 +237,6 @@
     .why_img {
         max-width: 34px;
         height: 34px;
-    }
-
-    .overview_img {
-        height: 350px;
-    }
-
-    .overview_box.one,
-    .overview_box.three {
-        margin-left: 0px;
-        margin-right: 0;
-    }
-
-    .overview_box.two,
-    .overview_box.four {
-        margin-right: 0px;
-    }
-
-    .satisfied_wrapper {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .satisfied_title {
-        font-size: 22px;
-        margin-bottom: 8px;
     }
 
     .signup_input {
@@ -501,12 +432,6 @@
     .banner_content .banner_heading {
         font-size: 28px;
     }
-
-    .satisfied_title {
-        font-size: 18px;
-        margin-bottom: 4px;
-    }
-
     .signup_form {
         flex-direction: column;
     }
