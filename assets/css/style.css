@@ -12,7 +12,7 @@
   --white-color: #ffffff;
   --light-gray: #cccccc;
   --navy-blue: #003366;
-  --red-color: #D62C1A;
+  /* --red-color: #D62C1A; */
   /* --red-color:#e54042; */
 
   /* font family */
@@ -32,7 +32,7 @@ body {
 
 p a,
 ul li p a {
-  color: var(--red-color);
+  color: var(--navy-blue);
 }
 
 p {
@@ -60,7 +60,7 @@ a {
 .btn {
   font-size: 18px;
   font-weight: 400;
-  background-color: var(--red-color);
+  background-color: var(--navy-blue);
   color: var(--white-color);
   border: 1px solid var(--white-color);
   outline: none;
@@ -72,8 +72,8 @@ a {
 }
 
 .btn:hover {
-  border-color: var(--red-color);
-  color: var(--red-color);
+  border-color: var(--navy-blue);
+  color: var(--navy-blue);
   background-color: transparent;
 }
 
@@ -141,7 +141,7 @@ title {
   font-size: 42px;
   font-weight: 800;
   text-align: center;
-  color: var(--red-color);
+  color: var(--navy-blue);
   line-height: 150%;
   margin-bottom: 40px;
 }
@@ -150,12 +150,12 @@ title {
   font-size: 24px;
   color: var(--black-color);
   font-weight: 600;
-  color: var(--red-color);
+  color: var(--navy-blue);
   margin-block: 10px;
 }
 
 .sub_title {
-  color: var(--red-color);
+  color: var(--navy-blue);
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 16px;
@@ -180,11 +180,11 @@ title {
 }
 
 .sec_item strong {
-  color: var(--red-color);
+  color: var(--navy-blue);
 }
 
 .sec_item::marker {
-  color: var(--red-color);
+  color: var(--navy-blue);
 }
 
 /* header section */
@@ -216,8 +216,8 @@ title {
 
 .header_logoLnk {
   background-image: url(../images/logo.svg);
-  height: 64px;
-  width: 170px;
+  height: 54px;
+  width: 150px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -250,7 +250,7 @@ title {
 
 .header_link:hover,
 .header_link.active {
-  color: var(--red-color);
+  color: var(--navy-blue);
 }
 
 .header_link::after {
@@ -259,7 +259,7 @@ title {
   content: "";
   bottom: -6px;
   right: 0;
-  background-color: var(--red-color);
+  background-color: var(--navy-blue);
   height: 2px;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
@@ -287,7 +287,7 @@ title {
 .header_right .btn {
   border-color: transparent;
   padding: 8px 16px;
-  color: var(--red-color);
+  color: var(--navy-blue);
   background-color: var(--white-color);
   border-radius: 8px;
 }
@@ -362,6 +362,24 @@ title {
   background-image: url("../images/montreal.jpg");
 }
 
+.banner_about{
+  background-image: url("../images/about-banner.jpg");
+}
+.banner_contact{
+  background-image: url("../images/contact-us.jpg");
+}
+.banner_persoanlaData{
+  background-image: url("../images/personal-data-banner.webp");
+}
+.banner_refund{
+  background-image: url("../images/refund-banner.jpg");
+}
+.banner_privacy{
+  background-image: url("../images/privacy-policy-banner.jpg");
+}
+.banner_terms{
+  background-image: url("../images/term-condition-banner.jpg");
+}
 
 .banner::after {
   position: absolute;
@@ -370,7 +388,7 @@ title {
   right: 0;
   left: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .banner_content {
@@ -454,9 +472,6 @@ title {
 }
 
 /* categoreis section */
-.categories {
-  margin-block: 50px;
-}
 
 .categories_wrapper {
   display: grid;
@@ -513,7 +528,7 @@ title {
 }
 
 .categories_content {
-  background-color: var(--red-color);
+  background-color: var(--navy-blue);
   text-align: center;
   padding: 4px;
   position: relative;
@@ -551,7 +566,7 @@ title {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--red-color);
+  background-color: var(--navy-blue);
 }
 
 .why_img {
@@ -591,7 +606,7 @@ title {
 .why_title {
   font-size: 20px;
   font-weight: 500;
-  color: var(--red-color);
+  color: var(--navy-blue);
   margin-bottom: 12px;
 }
 
@@ -648,7 +663,7 @@ title {
 }
 
 .hotelSlct_title {
-  background-color: var(--red-color);
+  background-color: var(--navy-blue);
   color: var(--white-color);
   text-align: center;
   padding: 6px;
@@ -753,7 +768,7 @@ title {
 }
 
 .signup_desc {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: 12px;
   text-align: center;
@@ -808,7 +823,7 @@ title {
 }
 
 .signup_form .signup_input:focus {
-  border-color: var(--red-color);
+  border-color: var(--navy-blue);
 }
 
 .submit_btn {
@@ -818,8 +833,8 @@ title {
 }
 
 .submit_btn:hover {
-  border-color: var(--red-color);
-  color: var(--red-color);
+  border-color: var(--navy-blue);
+  color: var(--navy-blue);
 }
 
 /* faq section */
@@ -847,7 +862,7 @@ title {
 }
 
 .accordion-flush .accordion-item .accordion-button {
-  background-color: var(--red-color);
+  background-color: var(--navy-blue);
   margin-bottom: 8px;
 }
 
@@ -862,7 +877,7 @@ title {
 
 .accordion-body {
   border-radius: 8px;
-  border-left: 4px solid var(--red-color);
+  border-left: 4px solid var(--navy-blue);
   margin-bottom: 4px;
 }
 
@@ -899,12 +914,13 @@ title {
 
 .footer_icon {
   background-image: url("../images/logo.svg");
-  height: 64px;
-  width: 164px;
+  height: 54px;
+  width: 150px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   display: block;
+  /* filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(84deg) brightness(107%) contrast(101%); */
 }
 
 .footer_title {
@@ -957,8 +973,8 @@ title {
 }
 
 .footer_social:hover {
-  border-color: var(--red-color);
-  background-color: var(--red-color);
+  border-color: var(--navy-blue);
+  background-color: var(--navy-blue);
 }
 
 .social_link {
@@ -1056,7 +1072,7 @@ title {
 .hotels_secWrapp {
   display: flex;
   justify-content: space-between;
-  background-color: var(--red-color);
+  background-color: var(--navy-blue);
   border-radius: 4px;
 }
 
@@ -1066,7 +1082,7 @@ title {
 
 .hotels_title {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--white-color);
 }
 
@@ -1082,6 +1098,8 @@ title {
 
 .hotels_list {
   margin-bottom: 16px;
+  list-style-type: disc;
+  margin-left: 6%;
 }
 
 .hotels_items {
@@ -1094,11 +1112,13 @@ title {
 
 .hotel_btmSec {
   margin-bottom: 12px;
-  display: none;
+  height: 0;  
+  overflow: hidden;
+  transition: height 0.5s ease-out; 
 }
 
 .hotel_btmSec.active {
-  display: block;
+  height: auto; 
 }
 
 .hotels_img {
@@ -1110,6 +1130,12 @@ title {
   position: relative;
 }
 
+.reverse .hotels_img {
+  border-radius: 4px 0px 0px 4px;
+}
+.reverse .hotels_img::after  {
+  border-radius: 4px 0px 0px 4px;
+}
 .hotels_img::after {
   position: absolute;
   content: "";
@@ -1118,6 +1144,7 @@ title {
   left: 0;
   bottom: 0;
   background-color: rgb(0 0 0 / 30%);
+  border-radius: 0px 4px 4px 0px
 }
 
 .hotels_sec--one .hotels_img {
@@ -1166,7 +1193,7 @@ title {
 
 .hotels .btn:hover {
   background-color: var(--white-color);
-  color: var(--red-color);
+  color: var(--navy-blue);
 }
 
 /* vancouver section */
@@ -1267,7 +1294,7 @@ title {
   font-size: 28px;
   font-weight: 500;
   margin-bottom: 12px;
-  color: var(--red-color);
+  color: var(--navy-blue);
 }
 .secInfo_subHeading{
   font-size: 20px;
@@ -1287,11 +1314,22 @@ title {
 }
 
 .secInfo_item strong {
-  color: var(--red-color);
+  color: var(--navy-blue);
 }
-
+.secInfo_item  a{
+  color: var(--navy-blue);
+}
+.secInfo_item  a:hover{
+  color: var(--navy-blue);
+}
 .secInfo_item::marker {
-  color: var(--red-color);
+  color: var(--navy-blue);
+}
+.secInfo_InnerList{
+ margin-left: 2%;
+}
+.secInfo_InnerList li{
+ list-style: circle;
 }
 
 /* contact us */
@@ -1323,7 +1361,7 @@ title {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 16px;
-  color: var(--red-color);
+  color: var(--navy-blue);
 }
 
 .contact_wrapp textarea{
@@ -1352,8 +1390,8 @@ title {
   border-radius: 4px;
   outline: none;
   border: none;
-  border: 1px solid var(--red-color);
-  color: var(--red-color);
+  border: 1px solid var(--navy-blue);
+  color: var(--navy-blue);
 }
 
 .contact_input:focus {
@@ -1361,7 +1399,7 @@ title {
 }
 
 .contact_input::placeholder {
-  color: var(--red-color);
+  color: var(--navy-blue);
 }
 
 .contact_form {
@@ -1376,7 +1414,7 @@ title {
 }
 
 .contact_link:hover {
-  color: var(--red-color);
+  color: var(--navy-blue);
 }
 
 .socials_wrapp {
@@ -1394,7 +1432,7 @@ title {
 }
 
 .socials_wrapp .social {
-  border: 1px solid var(--red-color);
+  border: 1px solid var(--navy-blue);
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -1404,7 +1442,7 @@ title {
   cursor: pointer;
 }
 .socials_wrapp .social:hover {
-  background-color: var(--red-color);
+  background-color: var(--navy-blue);
 }
 
 .socials_wrapp .social:hover.social .social_link {
@@ -1413,4 +1451,37 @@ title {
 
 .socials_wrapp .social:hover.social .social_link--twitter {
   filter: invert(0);
+}
+/* contact page  section */
+.contact--page .contact_wrapp {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgb(241 6 6 / 18%) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.contact--page .contact_heading{
+  text-align: center;
+}
+.read_moreIcon {
+  background-image: url("../images/down-arrowbtm.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  display: inline-block;
+  filter: invert(1);
+}
+.hotels .read_more {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.hotels .btn:hover .read_moreIcon {
+  filter: brightness(0) saturate(100%) invert(17%) sepia(28%) saturate(3500%) hue-rotate(186deg) brightness(95%) contrast(108%);
+}
+ .read_moreIcon .hotel_btmSec.active {
+  transform: rotate(180deg);
 }

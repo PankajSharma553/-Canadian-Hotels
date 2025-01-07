@@ -25,15 +25,15 @@
     }
 
     .header_link:hover {
-        color: var(--red-color);
+        color: var(--navy-blue);
     }
 
     .header_link.active {
-        color: var(--red-color);
+        color: var(--navy-blue);
     }
 
     .header_link::after {
-        background-color: var(--red-color);
+        background-color: var(--navy-blue);
     }
 
     .humburger {
@@ -86,6 +86,13 @@
     .signup_heading {
         font-size: 36px;
     }
+
+    .contact {
+        padding-block: 50px;
+    }
+    .hotels {
+        margin: 50px 0;
+    }
 }
 
 /* 1024 media qurey  */
@@ -93,10 +100,22 @@
     .section {
         margin-block: 3rem;
     }
+    .hotels_heading {
+        font-size: 28px;
+        margin-bottom: 28px;
+    }
+    .contact {
+        padding-block: 40px;
+    }
+    .hotels {
+        margin: 40px 0;
+    }
+
     .secInfo_heading {
         font-size: 24px;
         margin-bottom: 10px;
     }
+
     .heading {
         font-size: 40px;
         margin-bottom: 20px;
@@ -114,6 +133,7 @@
         height: 450px;
         margin-bottom: 50px;
     }
+
     .info {
         padding-block: 40px;
     }
@@ -142,7 +162,7 @@
 
     .header_logoLnk,
     .footer_icon {
-        height: 54px;
+        height: 44px;
         width: 120px;
     }
 
@@ -150,6 +170,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
     }
+
     .footer-pages-wrap {
         padding: 40px 24px;
     }
@@ -158,15 +179,24 @@
 
 /* 767 media qurey  */
 @media (max-width:767px) {
-    .section {
-        margin-block: 2rem;
+   
+    .hotels_heading {
+        font-size: 24px;
     }
+    .contact {
+        padding-block: 32px;
+    }
+    .hotels {
+        margin: 32px 0;
+    }
+
+    .contact_heading {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
     .secInfo_heading {
         font-size: 20px;
-    }
-    .py-5 {
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
     }
 
     .btn {
@@ -206,7 +236,7 @@
 
     .hotels_sec {
         flex-direction: column-reverse;
-        padding: 12px;
+        /* padding: 12px; */
     }
 
     .hotels_imgs {
@@ -246,6 +276,7 @@
     .categories_wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .why_wrapper {
         grid-template-columns: repeat(1, 1fr);
         gap: 16px;
@@ -286,25 +317,40 @@
     }
 
     .hotels_secWrapp {
-      flex-direction: column;
+        flex-direction: column;
     }
-    .hotels_right, .hotels_left {
+
+    .hotels_right,
+    .hotels_left {
         width: 100%;
     }
-    .hotels_img{
-        height:350px;
+
+    .hotels_img {
+        height: 350px;
     }
+
     .hotels_contents {
         padding: 20px;
     }
+
     .contact_inner {
         flex-direction: column;
     }
-    .contact_left, .contact_right {
+
+    .contact_left,
+    .contact_right {
         width: 100%;
     }
+
     .contact_inner {
         padding: 24px;
+    }
+
+    .contact--page .contact_wrapp {
+        padding: 16px;
+    }
+    .faq.section {
+        padding-bottom: 32px;
     }
 }
 
@@ -313,6 +359,21 @@
     .heading {
         font-size: 28px;
         margin-bottom: 16px;
+    }
+    .hotels_heading {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+    .contact_heading {
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+
+    .contact {
+        padding-block: 24px;
+    }
+    .hotels {
+        margin: 28px 0;
     }
 
     .banner_content {
@@ -417,8 +478,8 @@
         justify-content: center;
     }
 
-    .hotels_img{
-        height:300px;
+    .hotels_img {
+        height: 300px;
     }
 }
 
@@ -432,6 +493,7 @@
     .banner_content .banner_heading {
         font-size: 28px;
     }
+
     .signup_form {
         flex-direction: column;
     }
@@ -458,7 +520,8 @@
         font-size: 14px;
         margin-bottom: 8px;
     }
-    .hotels_img{
-        height:250px;
+
+    .hotels_img {
+        height: 250px;
     }
 }

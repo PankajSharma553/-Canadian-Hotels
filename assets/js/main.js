@@ -10,39 +10,33 @@ humburger.addEventListener("click", function () {
 close.addEventListener("click", function () {
   navbar.classList.remove("active");
 });
+
 // scroll header navigation
+window.addEventListener('scroll', function () {
+  const header = document.querySelector('.header');
+  if (window.scrollY > 80) {
+    header.classList.add('shadow');
+  } else {
+    header.classList.remove('shadow');
+  }
+});
 
-window.addEventListener('scroll', function() {
-    const header = document.querySelector('.header');
-    if (window.scrollY > 80) {
-        header.classList.add('shadow');
-    } else {
-        header.classList.remove('shadow');
-    }
-  });
-  
+// show content
+const btnReadmore = document.querySelectorAll(".read_more");
+const desContent = document.querySelectorAll(".hotel_btmSec");
 
-  // show content
-const btnReadmore = document.querySelectorAll(".hotels_readmore");
-const desContent = document.querySelectorAll(".hotels_desc");
 btnReadmore.forEach((btn, index) => {
   btn.addEventListener("click", function () {
-    desContent[index].classList.toggle("active");
+    const content = desContent[index];
+
+    content.classList.toggle("active");
+
+    if (content.classList.contains("active")) {
+      content.style.height = content.scrollHeight + "px";
+    } else {
+      content.style.height = 0;
+    }
   });
 });
 
-// $(document).ready(function () {
-//   $(".hotels_readmore").click(function () {
-//     $(this).parent().parent().find(".hotels_desc").slideToggle();
-//   });
-// });
-
-
-// show content
-
-const ReadMoreBtn = document.querySelector(".read_more");
-const hotelBtmSec = document.querySelector(".hotel_btmSec");
-ReadMoreBtn.addEventListener("click",function(){
-  hotelBtmSec.classList.toggle("active")
-})
 
